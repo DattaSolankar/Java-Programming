@@ -1,0 +1,14 @@
+3. code for calculate salary of employee
+package com.github;
+
+public class ass3java { public static void main(String[] args){ int avgOfThreeEmpInOneWeek=1000;
+
+    int E1_Salary=1100;
+    int E2_Salary=500;
+    float E3_Salary; //we have to find third employee salary
+
+    E3_Salary= (float) ((avgOfThreeEmpInOneWeek*3.0)/ (E1_Salary+E2_Salary));
+
+    System.out.println("Salary of Third Employee is:"+E3_Salary);
+}
+}
